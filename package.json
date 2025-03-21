@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node backend/index.js",
-    "dev": "nodemon backend/index.js"
+    "start": "NODE_ENV=production node backend/index.js",
+		"dev": "NODE_ENV=development nodemon backend/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+
   },
+ 
+  "type": "module",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
   "dependencies": {
     "@apollo/client": "^3.13.5",
     "@apollo/server": "^4.11.3",
