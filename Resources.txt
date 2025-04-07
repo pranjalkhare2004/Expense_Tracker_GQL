@@ -1,0 +1,10 @@
+https://youtu.be/Vr-QHtbmd38
+
+1. https://ui.aceternity.com/
+2. https://www.passportjs.org/
+3. https://graphql.org/
+4. https://tailwindcss.com/docs/installation/using-vite
+5. https://cloud.mongodb.com/
+6. https://www.apollographql.com/docs/apollo-server
+7. https://jkettmann.com/authentication-and-authorization-with-graphql-and-passport
+8. https://www.npmjs.com/package/graphql-passport
